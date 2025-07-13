@@ -7,8 +7,7 @@ const Home = () => {
         style={{ backgroundImage: "url(/light.webp)" }}
       />
       {/* Semi-transparent overlay */}
-      <div className="absolute inset-0 bg-black/30 -z-10" />
-      <header className="text-center font-bricolage">
+      <header className="text-center z-10 font-bricolage">
         <div className="flex items-center justify-center gap-2 text-[2.5rem] font-normal text-gray-900 font-serif mb-1">
           <span>I'm</span>
           <span className="italic font-medium mx-1">Hanzo</span>
@@ -16,7 +15,7 @@ const Home = () => {
             <img
               src="https://randomuser.me/api/portraits/men/32.jpg"
               alt="Hanzo"
-              className="w-9 h-9 rounded-full object-cover border-2 border-white shadow"
+              className="w-20 h-12 rounded-full object-cover border-2 border-white shadow"
             />
           </span>
           <span>,</span>
@@ -27,7 +26,7 @@ const Home = () => {
             <img
               src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=facearea&w=64&h=64"
               alt="Product"
-              className="w-9 h-9 rounded-full object-cover border-2 border-white shadow"
+              className="w-16 h-12 rounded-full object-cover border-2 border-white shadow"
             />
           </span>
           <span className="italic font-medium mx-1">Designer</span>
@@ -38,7 +37,7 @@ const Home = () => {
             <img
               src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=facearea&w=64&h=64"
               alt="Tokyo"
-              className="w-9 h-9 rounded-full object-cover border-2 border-white shadow"
+              className="w-16 h-12 rounded-full object-cover border-2 border-white shadow"
             />
           </span>
         </div>
