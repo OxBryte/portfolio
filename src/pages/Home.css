@@ -1,0 +1,120 @@
+/* Home page styles for portfolio */
+
+.home-bg {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #f5f6fa 0%, #e9e9ee 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.home-header {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.home-title {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 0.2em;
+  font-family: "Georgia", "Times New Roman", serif;
+}
+
+.home-title-italic {
+  font-style: italic;
+  font-weight: 500;
+  margin: 0 0.2em;
+}
+
+.home-title-img {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 0.2em;
+}
+
+.home-title-img img {
+  width: 2.2em;
+  height: 2.2em;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  background: #fff;
+}
+
+.home-subheadline {
+  margin: 1.5em 0 2em 0;
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-btn {
+  background: #222;
+  color: #fff;
+  border: none;
+  border-radius: 2em;
+  padding: 0.8em 2.2em;
+  font-size: 1.1rem;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  margin-bottom: 2.5em;
+  transition: background 0.2s, color 0.2s;
+}
+
+.home-btn:hover {
+  background: #444;
+  color: #fff;
+}
+
+.home-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2.5em;
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+  flex-wrap: wrap;
+}
+
+.home-card {
+  background: #fff;
+  border-radius: 1.5em;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  padding: 0.5em;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-card-img {
+  width: 100%;
+  border-radius: 1.2em;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+@media (max-width: 700px) {
+  .home-title {
+    font-size: 1.3rem;
+    flex-wrap: wrap;
+  }
+  .home-cards {
+    flex-direction: column;
+    gap: 1.2em;
+  }
+  .home-card {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+}
