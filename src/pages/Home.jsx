@@ -1,11 +1,13 @@
 const Home = () => {
   return (
-    <div className="relative flex flex-col items-center justify-center min-h-screen overflow-hidden">
+    <div className=" flex flex-col items-center justify-center min-h-screen overflow-hidden">
       {/* Absolute grayscale background image */}
       <div
-        className="absolute top-0 left-0 w-full h-full bg-cover bg-center grayscale -z-10"
+        className="absolute inset-0 w-full h-full bg-cover bg-center grayscale"
         style={{ backgroundImage: "url(/light.webp)" }}
       />
+      {/* Semi-transparent overlay */}
+      <div className="absolute inset-0 bg-black/30 -z-10" />
       <header className="text-center font-bricolage">
         <div className="flex items-center justify-center gap-2 text-[2.5rem] font-normal text-gray-900 font-serif mb-1">
           <span>I'm</span>
@@ -49,14 +51,14 @@ const Home = () => {
         </button>
       </header>
       <main className="flex flex-wrap justify-center gap-8 mt-2 mb-4 w-full">
-        <div className="bg-white rounded-2xl shadow-lg p-2 w-[320px] flex flex-col items-center">
+        <div className="bg-white bg-opacity-90 rounded-2xl shadow-lg p-2 w-[320px] flex flex-col items-center">
           <img
             src="https://placehold.co/300x180"
             alt="Project 1"
             className="w-full rounded-xl object-cover shadow"
           />
         </div>
-        <div className="bg-white rounded-2xl shadow-lg p-2 w-[320px] flex flex-col items-center">
+        <div className="bg-white bg-opacity-90 rounded-2xl shadow-lg p-2 w-[320px] flex flex-col items-center">
           <img
             src="https://placehold.co/300x180"
             alt="Project 2"
