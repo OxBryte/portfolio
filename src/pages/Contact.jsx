@@ -1,14 +1,19 @@
-import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa'
+import {
+  FaEnvelope,
+  FaPhone,
+  FaMapMarkerAlt,
+  FaLinkedin,
+  FaGithub,
+  FaTwitter,
+} from "react-icons/fa";
 
 const Contact = () => {
   return (
     <div className="max-w-4xl mx-auto">
       <h1 className="text-4xl font-bold text-gray-800 mb-8">Get In Touch</h1>
-      
       <div className="grid md:grid-cols-2 gap-8">
         <div className="bg-white rounded-lg shadow-md p-8">
           <h2 className="text-2xl font-semibold mb-6">Contact Information</h2>
-          
           <div className="space-y-4">
             <div className="flex items-center space-x-4">
               <FaEnvelope className="w-6 h-6 text-blue-600" />
@@ -17,7 +22,6 @@ const Contact = () => {
                 <p className="text-gray-600">hello@example.com</p>
               </div>
             </div>
-            
             <div className="flex items-center space-x-4">
               <FaPhone className="w-6 h-6 text-blue-600" />
               <div>
@@ -25,7 +29,6 @@ const Contact = () => {
                 <p className="text-gray-600">+1 (555) 123-4567</p>
               </div>
             </div>
-            
             <div className="flex items-center space-x-4">
               <FaMapMarkerAlt className="w-6 h-6 text-blue-600" />
               <div>
@@ -34,7 +37,6 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          
           <div className="mt-8">
             <h3 className="text-lg font-semibold mb-4">Follow Me</h3>
             <div className="flex space-x-4">
@@ -59,13 +61,14 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        
         <div className="bg-white rounded-lg shadow-md p-8">
           <h2 className="text-2xl font-semibold mb-6">Send Message</h2>
-          
           <form className="space-y-4">
             <div>
-              <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+              <label
+                htmlFor="name"
+                className="block text-sm font-medium text-gray-700 mb-2"
+              >
                 Name
               </label>
               <input
@@ -75,9 +78,11 @@ const Contact = () => {
                 placeholder="Your name"
               />
             </div>
-            
             <div>
-              <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+              <label
+                htmlFor="email"
+                className="block text-sm font-medium text-gray-700 mb-2"
+              >
                 Email
               </label>
               <input
@@ -87,9 +92,11 @@ const Contact = () => {
                 placeholder="your.email@example.com"
               />
             </div>
-            
             <div>
-              <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+              <label
+                htmlFor="message"
+                className="block text-sm font-medium text-gray-700 mb-2"
+              >
                 Message
               </label>
               <textarea
@@ -99,7 +106,6 @@ const Contact = () => {
                 placeholder="Your message..."
               ></textarea>
             </div>
-            
             <button
               type="submit"
               className="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-colors"
@@ -110,7 +116,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

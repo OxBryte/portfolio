@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "./App.css";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
@@ -9,7 +8,7 @@ import Layout from "./components/Layout";
 function App() {
   return (
     <Router>
-      <div className="app-bg">
+      <div className="min-h-screen bg-gray-50">
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
