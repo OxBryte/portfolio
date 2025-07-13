@@ -1,2 +1,6 @@
 /* CSS file - Tailwind directives removed */
 @import "tailwindcss";
+
+@theme {
+  --font-bricolage: "Bricolage Grotesque Variable", sans-serif;
+}
