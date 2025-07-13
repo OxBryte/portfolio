@@ -25,7 +25,7 @@ const Home = () => {
           </span>
           <span className="italic font-medium mx-1">Designer</span>
         </div>
-        <div className="flex items-center justify-center gap-2 text-[2.5rem] font-normal text-gray-900 font-serif mb-1">
+        <div className="flex items-center justify-center gap-2 text-[2.5rem] font-normal text-gray-900 font-serif mb-1 !font-bricolage">
           <span>based in Tokyo</span>
           <span className="inline-flex items-center mx-1">
             <img
