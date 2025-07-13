@@ -1,9 +1,11 @@
 const Home = () => {
   return (
-    <div
-      className="flex flex-col items-center justify-center min-h-screen bg-cover bg-center grayscale"
-      style={{ backgroundImage: "url(/light.webp)" }}
-    >
+    <div className="relative flex flex-col items-center justify-center min-h-screen overflow-hidden">
+      {/* Absolute grayscale background image */}
+      <div
+        className="absolute top-0 left-0 w-full h-full bg-cover bg-center grayscale -z-10"
+        style={{ backgroundImage: "url(/light.webp)" }}
+      />
       <header className="text-center font-bricolage">
         <div className="flex items-center justify-center gap-2 text-[2.5rem] font-normal text-gray-900 font-serif mb-1">
           <span>I'm</span>
