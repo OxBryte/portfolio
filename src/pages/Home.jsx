@@ -115,7 +115,8 @@ const Home = () => {
           design and modern web technologies.
         </p>
         <a
-          href="/olumide-silas-cv.pdf"
+          href="olumide-silas-cv.pdf"
+          download
           target="_blank"
           rel="noopener noreferrer"
           className="bg-gray-900 text-white rounded-full px-8 py-3 text-base font-medium shadow hover:bg-gray-700 transition"
