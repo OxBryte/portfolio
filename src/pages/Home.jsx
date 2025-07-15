@@ -101,11 +101,11 @@ const Home = () => {
       {/* Analog Clock on the right */}
       <AnalogClock />
       {/* Your content here */}
-      <div className="relative z-20 text-center flex flex-col items-center w-fit gap-2 font-bricolage">
+      <div className="relative z-20 text-center flex flex-col items-center w-fit gap-3 font-bricolage">
         <h1 className="font-bricolage font-bold m-0 text-[32px] md:text-[56px] bg-gradient-to-b from-black/10 to-black bg-clip-text text-transparent">
           I'm Olumide Silas
         </h1>
-        <p className="font-light capitalize -mt-2 text-lg">
+        <p className="font-light capitalize -mt-4 text-lg">
           Full-Stack Developer & UI/UX Designer
         </p>
         <p className="text-[14px] font-light text-gray-600 max-w-xl mx-auto">
@@ -114,11 +114,14 @@ const Home = () => {
           accessibility and clean code, I bring ideas to life through thoughtful
           design and modern web technologies.
         </p>
-        <Link to="/olumide-silas-cv.pdf">
-          <button className="bg-gray-900 text-white rounded-full px-8 py-3 text-base font-medium shadow hover:bg-gray-700 transition">
-            View Resume
-          </button>
-        </Link>
+        <a
+          href="/olumide-silas-cv.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-gray-900 text-white rounded-full px-8 py-3 text-base font-medium shadow hover:bg-gray-700 transition"
+        >
+          View Resume
+        </a>
         {/* Skill Icons Row */}
         <div className="flex items-center justify-center gap-5 my-4 max-w-[400px] flex-wrap">
           {/* Next.js */}
