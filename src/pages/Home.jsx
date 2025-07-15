@@ -55,16 +55,16 @@ const Home = () => {
           />
           {/* Vite */}
           <img src="https://vite.dev/logo.svg" alt="Vite" className="w-8 h-8" />
-          {/* Chakra UI */}
-          <img
-            src="https://raw.githubusercontent.com/chakra-ui/chakra-ui/main/logo/logomark-colored.svg"
-            alt="Chakra UI"
-            className="w-8 h-8"
-          />
+
           {/* Tailwindcss */}
           <img
-            src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.d52e9897.svg"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
             alt="Tailwindcss"
+            className="w-8 h-8"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"
+            alt="Vercel"
             className="w-8 h-8"
           />
           {/* Figma */}
