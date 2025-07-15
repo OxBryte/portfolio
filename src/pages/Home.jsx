@@ -23,7 +23,7 @@ const Home = () => {
         <p className="font-light capitalize -mt-2 text-lg">
           Full-Stack Developer & UI/UX Designer
         </p>
-        <p className="text-base font-light text-gray-600 max-w-2xl mx-auto">
+        <p className="text-[14px] font-light text-gray-600 max-w-xl mx-auto">
           I create intuitive digital experiences that put users first.
           Specializing in user-centric applications with a focus on
           accessibility and clean code, I bring ideas to life through thoughtful
