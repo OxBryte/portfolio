@@ -40,10 +40,9 @@ const CustomCursor = () => {
           marginLeft: isActive ? -24 : -18,
           marginTop: isActive ? -24 : -18,
           borderRadius: "50%",
-          border: `2.5px solid #19BBA3`,
-          background: "rgba(25, 187, 163, 0.08)",
-          boxShadow: "0 2px 12px 0 rgba(25, 187, 163, 0.15)",
-          transition: "all 0.15s cubic-bezier(.4,0,.2,1)",
+          border: `1.5px solid #222222`,
+          // background: "rgba(25, 187, 163, 0.08)",
+          // transition: "all 0.15s cubic-bezier(.4,0,.2,1)",
           mixBlendMode: "multiply",
         }}
       />
@@ -57,8 +56,8 @@ const CustomCursor = () => {
           marginLeft: -5,
           marginTop: -5,
           borderRadius: "50%",
-          background: "#19BBA3",
-          boxShadow: "0 1px 4px 0 rgba(25, 187, 163, 0.18)",
+          background: "#222222",
+          // boxShadow: "0 1px 4px 0 rgba(25, 187, 163, 0.18)",
         }}
       />
     </>
