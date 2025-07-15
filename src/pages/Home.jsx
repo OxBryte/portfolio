@@ -1,18 +1,18 @@
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+
 const Home = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen overflow-hidden">
       {/* Background image */}
       <div
         className="absolute inset-0 w-full h-full bg-cover bg-center grayscale"
-        // style={{ backgroundImage: "url(/light.webp)" }}
+        style={{ backgroundImage: "url(/light.webp)" }}
       />
       {/* Noise overlay */}
       <div
         className="pointer-events-none absolute inset-0 w-full h-full z-0"
         style={{
           backgroundImage: "url(/noise.png)",
-          // opacity: 0.25, // Adjust for more/less noise
-          // mixBlendMode: "overlay",
         }}
       />
       {/* Your content here */}
@@ -29,10 +29,9 @@ const Home = () => {
           accessibility and clean code, I bring ideas to life through thoughtful
           design and modern web technologies.
         </p>
-
-        {/* <button className="bg-gray-900 text-white rounded-full px-8 py-3 text-base font-medium shadow hover:bg-gray-700 transition mb-10">
+        <button className="bg-gray-900 text-white rounded-full px-8 py-3 text-base font-medium shadow hover:bg-gray-700 transition mb-10">
           Remix Template
-        </button> */}
+        </button>
         {/* Skill Icons Row */}
         <div className="flex items-center justify-center gap-5 my-4 max-w-[400px] flex-wrap">
           {/* Next.js */}
@@ -106,6 +105,33 @@ const Home = () => {
             alt="Figma"
             className="w-8 h-8"
           />
+        </div>
+        {/* Social Media Buttons */}
+        <div className="flex items-center justify-center gap-6 mt-8 mb-2">
+          <a
+            href="https://github.com/yourusername"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-600 hover:text-gray-900 transition text-2xl"
+          >
+            <FaGithub />
+          </a>
+          <a
+            href="https://linkedin.com/in/yourusername"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-600 hover:text-blue-700 transition text-2xl"
+          >
+            <FaLinkedin />
+          </a>
+          <a
+            href="https://twitter.com/yourusername"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-600 hover:text-blue-500 transition text-2xl"
+          >
+            <FaTwitter />
+          </a>
         </div>
       </div>
     </div>
