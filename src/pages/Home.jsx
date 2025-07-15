@@ -86,10 +86,10 @@ const Home = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen overflow-hidden ">
       {/* Background image */}
-      <div
+      {/* <div
         className="absolute inset-0 w-full h-full bg-cover bg-center grayscale"
-        // style={{ backgroundImage: "url(/light.webp)" }}
-      />
+        style={{ backgroundImage: "url(/light.webp)" }}
+      /> */}
       {/* Noise overlay */}
       <div
         className="pointer-events-none absolute inset-0 w-full h-full z-0"
@@ -101,7 +101,7 @@ const Home = () => {
       <AnalogClock />
       {/* Your content here */}
       <div className="relative z-20 text-center flex flex-col items-center w-fit gap-2 font-bricolage">
-        <h1 className="font-bricolage font-bold m-0 text-[56px] bg-gradient-to-b from-black/10 to-black bg-clip-text text-transparent">
+        <h1 className="font-bricolage font-bold m-0 text-[32px] md:text-[56px] bg-gradient-to-b from-black/10 to-black bg-clip-text text-transparent">
           I'm Olumide Silas
         </h1>
         <p className="font-light capitalize -mt-2 text-lg">
@@ -113,9 +113,9 @@ const Home = () => {
           accessibility and clean code, I bring ideas to life through thoughtful
           design and modern web technologies.
         </p>
-        {/* <button className="bg-gray-900 text-white rounded-full px-8 py-3 text-base font-medium shadow hover:bg-gray-700 transition">
-            Remix Template
-        </button> */}
+        <button className="bg-gray-900 text-white rounded-full px-8 py-3 text-base font-medium shadow hover:bg-gray-700 transition">
+          View Resume
+        </button>
         {/* Skill Icons Row */}
         <div className="flex items-center justify-center gap-5 my-4 max-w-[400px] flex-wrap">
           {/* Next.js */}
