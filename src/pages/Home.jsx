@@ -17,7 +17,7 @@ const Home = () => {
       />
       {/* Your content here */}
       <div className="relative z-10 text-center flex flex-col items-center w-fit gap-2 font-bricolage">
-        <h1 className="font-bricolage font-bold m-0 text-[56px] bg-gradient-to-b from-transparent 40% to-black bg-clip-text text-transparent">
+        <h1 className="font-bricolage font-bold m-0 text-[56px] bg-gradient-to-b from-blue-400 50% to-black bg-clip-text text-transparent">
           I'm Olumide Silas
         </h1>
         <p className="font-light capitalize -mt-2 text-lg">
