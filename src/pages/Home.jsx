@@ -49,6 +49,11 @@ const Home = () => {
           />
           {/* ReactJS */}
           <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg"
+            alt="Javascript"
+            className="w-8 h-8"
+          />
+          <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
             alt="ReactJS"
             className="w-8 h-8"
@@ -63,6 +68,11 @@ const Home = () => {
             className="w-8 h-8"
           />
           <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
+            alt="MongoDB"
+            className="w-8 h-8"
+          />
+          <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"
             alt="Vercel"
             className="w-8 h-8"
@@ -70,6 +80,11 @@ const Home = () => {
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg"
             alt="Firebase"
+            className="w-8 h-8"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+            alt="Git"
             className="w-8 h-8"
           />
           <img
