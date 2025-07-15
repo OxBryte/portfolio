@@ -202,7 +202,7 @@ const Home = () => {
           <FaGithub />
         </a>
         <a
-          href="https://linkedin.com/in/olumidesilas"
+          href="https://linkedin.com/in/olumide-silas"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-[#19BBA3] transition text-2xl"
