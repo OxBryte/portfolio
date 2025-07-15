@@ -1,10 +1,10 @@
 const Home = () => {
   return (
-    <div className=" flex flex-col items-center justify-center min-h-screen overflow-hidden">
+    <div className="h-screen flex flex-col items-center justify-center min-h-screen overflow-hidden">
       {/* Absolute grayscale background image */}
       <div
         className="absolute inset-0 w-full h-full bg-cover bg-center grayscale"
-        style={{ backgroundImage: "url(/light.webp)" }}
+        // style={{ backgroundImage: "url(/light.webp)" }}
       />
       {/* Semi-transparent overlay */}
       <header className="text-center z-10 font-bricolage">
