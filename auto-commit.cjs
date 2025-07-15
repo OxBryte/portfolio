@@ -67,7 +67,7 @@ class AutoCommitter {
         );
       }
 
-      console.log("✅ Auto-commit completed successfully!");
+      console.log("✅ Auto-commit and pushed completed successfully!");
     } catch (error) {
       console.log("❌ Error during commit:", error.message);
     }
