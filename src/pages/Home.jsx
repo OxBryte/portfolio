@@ -86,6 +86,11 @@ const Home = () => {
             className="w-8 h-8"
           />
           <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"
+            alt="PostgreSQL"
+            className="w-8 h-8"
+          />
+          <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
             alt="Git"
             className="w-8 h-8"
