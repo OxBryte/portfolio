@@ -194,26 +194,26 @@ const Home = () => {
       {/* Social Media Buttons at the bottom center */}
       <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-20 flex items-center gap-6">
         <a
-          href="https://github.com/yourusername"
+          href="https://github.com/oxbryte"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-600 hover:text-gray-900 transition text-2xl"
+          className="hover:text-gray-900 transition text-2xl"
         >
           <FaGithub />
         </a>
         <a
-          href="https://linkedin.com/in/yourusername"
+          href="https://linkedin.com/in/olumidesilas"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-600 hover:text-blue-700 transition text-2xl"
+          className="hover:text-blue-700 transition text-2xl"
         >
           <FaLinkedin />
         </a>
         <a
-          href="https://twitter.com/yourusername"
+          href="https://twitter.com/olumidesilas"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-600 hover:text-blue-500 transition text-2xl"
+          className="hover:text-blue-500 transition text-2xl"
         >
           <FaTwitter />
         </a>
