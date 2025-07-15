@@ -9,7 +9,7 @@ const Home = () => {
         <h1 className="font-bricolage font-bold m-0 text-[56px]">
           I'm Olumide Silas
         </h1>
-        <p className="font-light capitalize m-0 text-lg">
+        <p className="font-light capitalize -mt-2 text-lg">
           Full-Stack Developer & UI/UX Designer
         </p>
         <p className="text-base font-light text-gray-600 max-w-2xl mx-auto">
@@ -22,22 +22,6 @@ const Home = () => {
           Remix Template
         </button>
       </div>
-      <main className="flex flex-wrap justify-center gap-8 mt-2 mb-4 w-full">
-        <div className="bg-white bg-opacity-90 rounded-2xl shadow-lg p-2 w-[320px] flex flex-col items-center">
-          <img
-            src="https://placehold.co/300x180"
-            alt="Project 1"
-            className="w-full rounded-xl object-cover shadow"
-          />
-        </div>
-        <div className="bg-white bg-opacity-90 rounded-2xl shadow-lg p-2 w-[320px] flex flex-col items-center">
-          <img
-            src="https://placehold.co/300x180"
-            alt="Project 2"
-            className="w-full rounded-xl object-cover shadow"
-          />
-        </div>
-      </main>
     </div>
   );
 };
