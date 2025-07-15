@@ -63,7 +63,7 @@ const Home = () => {
           />
           {/* Tailwindcss */}
           <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+            src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.d52e9897.svg"
             alt="Tailwindcss"
             className="w-8 h-8"
           />
