@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const AnalogClock = () => {
   const [date, setDate] = useState(new Date());
@@ -113,9 +114,11 @@ const Home = () => {
           accessibility and clean code, I bring ideas to life through thoughtful
           design and modern web technologies.
         </p>
-        <button className="bg-gray-900 text-white rounded-full px-8 py-3 text-base font-medium shadow hover:bg-gray-700 transition">
-          View Resume
-        </button>
+        <Link to="/olumide-silas-cv.pdf">
+          <button className="bg-gray-900 text-white rounded-full px-8 py-3 text-base font-medium shadow hover:bg-gray-700 transition">
+            View Resume
+          </button>
+        </Link>
         {/* Skill Icons Row */}
         <div className="flex items-center justify-center gap-5 my-4 max-w-[400px] flex-wrap">
           {/* Next.js */}
