@@ -1,11 +1,22 @@
 const Home = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen overflow-hidden">
+      {/* Background image */}
       <div
         className="absolute inset-0 w-full h-full bg-cover bg-center grayscale"
         // style={{ backgroundImage: "url(/light.webp)" }}
       />
-      <div className="text-center flex flex-col items-center w-fit gap-2 font-bricolage">
+      {/* Noise overlay */}
+      <div
+        className="pointer-events-none absolute inset-0 w-full h-full z-0"
+        style={{
+          backgroundImage: "url(/noise.png)",
+          // opacity: 0.25, // Adjust for more/less noise
+          // mixBlendMode: "overlay",
+        }}
+      />
+      {/* Your content here */}
+      <div className="relative z-10 text-center flex flex-col items-center w-fit gap-2 font-bricolage">
         <h1 className="font-bricolage font-bold m-0 text-[56px]">
           I'm Olumide Silas
         </h1>
