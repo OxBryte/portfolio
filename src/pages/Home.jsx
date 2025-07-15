@@ -6,10 +6,17 @@ const Home = () => {
         // style={{ backgroundImage: "url(/light.webp)" }}
       />
       <div className="text-center flex flex-col items-center w-fit gap-3 font-bricolage">
-        <h1 className="font-bricolage font-bold text-[48px]">I'm Olumide Silas</h1>
+        <h1 className="font-bricolage font-bold text-[56px]">
+          I'm Olumide Silas
+        </h1>
+        <p className="font-light capitalize">Full-Stack Developer & UI/UX Designer</p>
         <p className="text-base text-gray-600 max-w-lg mx-auto">
-          I have 11 years of experience working on useful and mindful products
-          together with startups and known brands
+          Turning ideas into intuitive, functional solutions. I specialize in
+          crafting user-centric applications, with a strong focus on user
+          experience and accessibility. From creating wireframes, prototypes,
+          and user flows to designing engaging social media content, I bring
+          concepts to life through thoughtful design and clean, efficient
+          code—using a wide range of modern web technologies and tools.
         </p>
         <button className="bg-gray-900 text-white rounded-full px-8 py-3 text-base font-medium shadow hover:bg-gray-700 transition mb-10">
           Remix Template
