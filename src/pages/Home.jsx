@@ -29,9 +29,55 @@ const Home = () => {
           accessibility and clean code, I bring ideas to life through thoughtful
           design and modern web technologies.
         </p>
-        <button className="bg-gray-900 text-white rounded-full px-8 py-3 text-base font-medium shadow hover:bg-gray-700 transition mb-10">
+
+        {/* <button className="bg-gray-900 text-white rounded-full px-8 py-3 text-base font-medium shadow hover:bg-gray-700 transition mb-10">
           Remix Template
-        </button>
+        </button> */}
+        {/* Skill Icons Row */}
+        <div className="flex items-center justify-center gap-5 mb-10">
+          {/* Next.js */}
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+            alt="Next.js"
+            className="w-8 h-8"
+          />
+          {/* TypeScript */}
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+            alt="TypeScript"
+            className="w-8 h-8"
+          />
+          {/* ReactJS */}
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            alt="ReactJS"
+            className="w-8 h-8"
+          />
+          {/* Vite */}
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg"
+            alt="Vite"
+            className="w-8 h-8"
+          />
+          {/* Chakra UI */}
+          <img
+            src="https://raw.githubusercontent.com/chakra-ui/chakra-ui/main/logo/logomark-colored.svg"
+            alt="Chakra UI"
+            className="w-8 h-8"
+          />
+          {/* Tailwindcss */}
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+            alt="Tailwindcss"
+            className="w-8 h-8"
+          />
+          {/* Figma */}
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+            alt="Figma"
+            className="w-8 h-8"
+          />
+        </div>
       </div>
     </div>
   );
