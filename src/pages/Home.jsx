@@ -67,6 +67,16 @@ const Home = () => {
             alt="Vercel"
             className="w-8 h-8"
           />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg"
+            alt="Firebase"
+            className="w-8 h-8"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+            alt="Git"
+            className="w-8 h-8"
+          />
           {/* Figma */}
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
