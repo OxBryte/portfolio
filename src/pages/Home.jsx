@@ -197,7 +197,7 @@ const Home = () => {
           href="https://github.com/oxbryte"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-gray-900 transition text-2xl"
+          className="hover:text-[#19BBA3] transition text-2xl"
         >
           <FaGithub />
         </a>
@@ -205,7 +205,7 @@ const Home = () => {
           href="https://linkedin.com/in/olumidesilas"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-blue-700 transition text-2xl"
+          className="hover:text-[#19BBA3] transition text-2xl"
         >
           <FaLinkedin />
         </a>
@@ -213,7 +213,7 @@ const Home = () => {
           href="https://twitter.com/olumidesilas"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-blue-500 transition text-2xl"
+          className="hover:text-[#19BBA3] transition text-2xl"
         >
           <FaTwitter />
         </a>
