@@ -54,11 +54,7 @@ const Home = () => {
             className="w-8 h-8"
           />
           {/* Vite */}
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg"
-            alt="Vite"
-            className="w-8 h-8"
-          />
+          <img src="https://vite.dev/logo.svg" alt="Vite" className="w-8 h-8" />
           {/* Chakra UI */}
           <img
             src="https://raw.githubusercontent.com/chakra-ui/chakra-ui/main/logo/logomark-colored.svg"
