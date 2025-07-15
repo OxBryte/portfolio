@@ -34,7 +34,7 @@ const Home = () => {
           Remix Template
         </button> */}
         {/* Skill Icons Row */}
-        <div className="flex items-center justify-center gap-5 mb-10">
+        <div className="flex items-center justify-center gap-5 my-4 max-w-[400px] flex-wrap">
           {/* Next.js */}
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
@@ -59,8 +59,11 @@ const Home = () => {
             className="w-8 h-8"
           />
           {/* Vite */}
-          <img src="https://vite.dev/logo.svg" alt="Vite" className="w-8 h-8" />
-
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg"
+            alt="Vite"
+            className="w-8 h-8"
+          />
           {/* Tailwindcss */}
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
@@ -88,8 +91,8 @@ const Home = () => {
             className="w-8 h-8"
           />
           <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
-            alt="Git"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/solidity/solidity-original.svg"
+            alt="Solidity"
             className="w-8 h-8"
           />
           {/* Figma */}
