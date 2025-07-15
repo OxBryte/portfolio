@@ -1,4 +1,86 @@
+import { useEffect, useState } from "react";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+
+const AnalogClock = () => {
+  const [date, setDate] = useState(new Date());
+  useEffect(() => {
+    const interval = setInterval(() => setDate(new Date()), 1000);
+    return () => clearInterval(interval);
+  }, []);
+  const size = 60;
+  const center = size / 2;
+  const radius = size / 2 - 4;
+  const hour = date.getHours() % 12;
+  const minute = date.getMinutes();
+  const second = date.getSeconds();
+  // Angles
+  const hourAngle = (hour + minute / 60) * 30;
+  const minuteAngle = (minute + second / 60) * 6;
+  const secondAngle = second * 6;
+  // Hand lengths
+  const hourLen = radius * 0.5;
+  const minLen = radius * 0.75;
+  const secLen = radius * 0.85;
+  // Hand positions
+  const getHand = (angle, length) => [
+    center + length * Math.sin((Math.PI / 180) * angle),
+    center - length * Math.cos((Math.PI / 180) * angle),
+  ];
+  const [hx, hy] = getHand(hourAngle, hourLen);
+  const [mx, my] = getHand(minuteAngle, minLen);
+  const [sx, sy] = getHand(secondAngle, secLen);
+  return (
+    <div className="fixed top-10 right-8 z-30 select-none">
+      <svg
+        width={size}
+        height={size}
+        viewBox={`0 0 ${size} ${size}`}
+        className="drop-shadow"
+      >
+        <circle
+          cx={center}
+          cy={center}
+          r={radius}
+          fill="#fff"
+          stroke="#e5e7eb"
+          strokeWidth="3"
+        />
+        {/* Hour hand */}
+        <line
+          x1={center}
+          y1={center}
+          x2={hx}
+          y2={hy}
+          stroke="#222"
+          strokeWidth="3"
+          strokeLinecap="round"
+        />
+        {/* Minute hand */}
+        <line
+          x1={center}
+          y1={center}
+          x2={mx}
+          y2={my}
+          stroke="#222"
+          strokeWidth="2"
+          strokeLinecap="round"
+        />
+        {/* Second hand */}
+        <line
+          x1={center}
+          y1={center}
+          x2={sx}
+          y2={sy}
+          stroke="#f87171"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+        />
+        {/* Center dot */}
+        <circle cx={center} cy={center} r={2} fill="#222" />
+      </svg>
+    </div>
+  );
+};
 
 const Home = () => {
   return (
@@ -15,9 +97,11 @@ const Home = () => {
           backgroundImage: "url(/noise.png)",
         }}
       />
+      {/* Analog Clock on the right */}
+      <AnalogClock />
       {/* Your content here */}
-      <div className="relative z-10 text-center flex flex-col items-center w-fit gap-2 font-bricolage">
-        <h1 className="font-bricolage font-bold m-0 text-[56px] bg-gradient-to-b from-transparent from-5% to-black bg-clip-text text-transparent">
+      <div className="relative z-20 text-center flex flex-col items-center w-fit gap-2 font-bricolage">
+        <h1 className="font-bricolage font-bold m-0 text-[56px] bg-gradient-to-b from-black/10 to-black bg-clip-text text-transparent">
           I'm Olumide Silas
         </h1>
         <p className="font-light capitalize -mt-2 text-lg">
@@ -30,7 +114,7 @@ const Home = () => {
           design and modern web technologies.
         </p>
         {/* <button className="bg-gray-900 text-white rounded-full px-8 py-3 text-base font-medium shadow hover:bg-gray-700 transition">
-          Remix Template
+            Remix Template
         </button> */}
         {/* Skill Icons Row */}
         <div className="flex items-center justify-center gap-5 my-4 max-w-[400px] flex-wrap">
